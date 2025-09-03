@@ -46,7 +46,9 @@
             >;
 
             display-name = "Navigation";
-            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
+            sensor-bindings =
+                <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>,
+                <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
         };
 
         sym {
@@ -59,7 +61,9 @@
             >;
 
             display-name = "Symbols";
-            sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
+            sensor-bindings =
+                <&inc_dec_kp RIGHT LEFT>,
+                <&inc_dec_kp RIGHT LEFT>;
         };
 
         adj {
